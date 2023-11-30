@@ -8,8 +8,8 @@ function Hero() {
       <NavBar />
       <h1>Movies</h1>
       <h4>Genre:</h4>
-      <div className="btns-list">
-        <Button content="Action" bgColor="rgb(223, 18, 18)" />
+      <div className="btns-hero">
+        <Button content="Action" />
         <Button content="Adventure" />
         <Button content="Comedy" />
         <Button content="Romance" />
