@@ -1,11 +1,11 @@
-import './App.css';
-import NavBar from './Components/NavBar/NavBar';
+import "./App.css";
 
+import Hero from "./Components/Hero/Hero";
 
 function App() {
-      return (
-  <div >
-      <NavBar/>
+  return (
+    <div>
+      <Hero />
     </div>
   );
 }

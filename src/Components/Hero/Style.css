@@ -1,0 +1,15 @@
+.hero {
+background-image: url(https://img3.wallspic.com/crops/3/8/5/3/4/143583/143583-games-artist-batman-science_fiction-architecture-3350x1426.jpg);
+background-repeat: no-repeat;
+height: 80vh;
+
+
+border: solid 2px rgb(223, 18, 18) ;
+}
+
+.hero h1  {
+    color: white;
+}
+.hero h4  {
+    color: white;
+}

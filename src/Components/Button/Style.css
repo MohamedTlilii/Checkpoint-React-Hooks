@@ -1,0 +1,10 @@
+.btn-hero {
+  all: unset;
+  border: 2px solid black;
+  display: flex;
+  background-color: red;
+}
+.btns-list {
+  border: 2px solid black;
+  display: flex;
+}
