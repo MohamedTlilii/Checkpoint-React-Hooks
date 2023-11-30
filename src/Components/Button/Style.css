@@ -2,15 +2,11 @@
   all: unset;
   /* border: 2px solid black; */
   display: flex;
-  border-radius: 5px;
+  border-radius: 3px;
   background-color: red;
   color: white;
   cursor: pointer;
   font-size: 14px;
-  padding: 5px;
+  padding:6px;
 }
-.btns-hero {
-  /* border: 2px solid black; */
-  display: flex;
-  gap: 20px;
-}
+

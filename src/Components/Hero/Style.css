@@ -1,7 +1,7 @@
 .hero {
   background-image: url(https://wallpapercave.com/wp/wp5483854.jpg);
   background-repeat: no-repeat;
-  height: 55vh;
+  height: 51vh;
 
   /* border: solid 2px rgb(223, 18, 18); */
 }
@@ -27,4 +27,10 @@
   margin-left: 399px;
 
   width: fit-content;
+}
+.btns-hero {
+  /* border: 2px solid black; */
+  display: flex;
+  gap: 20px;
+ 
 }
