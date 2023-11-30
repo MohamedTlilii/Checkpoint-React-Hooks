@@ -6,6 +6,7 @@ function Hero() {
   return (
     <div className="hero">
       <NavBar />
+      <div className="hero-containt">
       <h1>Movies</h1>
       <h4>Genre:</h4>
       <div className="btns-hero">
@@ -16,6 +17,7 @@ function Hero() {
         <Button content="Sci-Fi" />
         <Button content="Horro" />
         <Button content="Fantacy" />
+      </div>
       </div>
     </div>
   );
