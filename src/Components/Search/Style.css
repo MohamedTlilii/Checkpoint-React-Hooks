@@ -1,0 +1,23 @@
+.search-containr {
+  /* border: 2px solid rgb(212, 45, 45); */
+  color: red;
+  position: relative;
+  margin-left: 400px;
+  margin-top: 15px;
+}
+
+#searchInput {
+  width: 18%;
+
+  border: 1px solid #000;
+  border-radius: 30px;
+  font-size: 16px;
+
+  background-image: url("https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-24.png");
+
+  background-position: 10px 7px;
+  background-repeat: no-repeat;
+  padding: 8px 20px 8px 40px;
+
+  opacity: 0.9;
+}
