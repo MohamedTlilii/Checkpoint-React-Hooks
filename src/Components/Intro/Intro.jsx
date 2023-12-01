@@ -1,7 +1,8 @@
 import "./Style.css";
 import React from "react";
 import Button from "../Button/Button";
-import MovieCard from "../MovieCard/MovieCard";
+import Card from "../Card/Card";
+
 function Intro() {
   return (
     <div className="intro">
@@ -10,7 +11,7 @@ function Intro() {
         <Button content="View All" />
       </div>
       <div>
-        <MovieCard />
+        <Card />
       </div>
     </div>
   );
