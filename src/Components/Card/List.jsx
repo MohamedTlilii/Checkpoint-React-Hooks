@@ -1,9 +1,9 @@
 import Card from "./Card";
-import Data from "../Data";
+import Data from '../Card/Data'
 
 const List = () => {
   return (
-    <div>
+    <div className="List" >
       {Data.map((movie, index) => (
         <Card key={index} {...movie} />
       ))}

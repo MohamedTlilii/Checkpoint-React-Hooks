@@ -6,10 +6,10 @@ const Card = ({ image, tittle, descrption,  }) => {
   return (
     <div className="card-containr">
       <div>
-        <img src={image} alt={tittle} />
+        <img style={{width:'238px' , height:'260px'}} src={image} alt={tittle} />
       </div>
-      <h6>{tittle}eaze</h6>
-      <ReactStars />
+      <h6 >{tittle}</h6>
+      <ReactStars className="icon-card"  />
       <p>{descrption}</p>
       {/* <link rel="stylesheet" href="" /> */}
     </div>

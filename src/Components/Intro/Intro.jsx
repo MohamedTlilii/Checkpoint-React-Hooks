@@ -1,7 +1,7 @@
 import "./Style.css";
 import React from "react";
 import Button from "../Button/Button";
-import Card from "../Card/Card";
+import List from "../Card/List";
 
 function Intro() {
   return (
@@ -10,8 +10,8 @@ function Intro() {
         <h2>Latest Movies</h2>
         <Button content="View All" />
       </div>
-      <div>
-        <Card />
+      <div >
+        <List />
       </div>
     </div>
   );
