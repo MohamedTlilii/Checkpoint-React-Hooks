@@ -1,7 +1,11 @@
+.card-cadre {
+  /* border:  2px solid orange; */
+  margin: 15px;
+}
 .card-containr {
   border: 1px solid rgb(238, 238, 238);
   background-color: hsl(210, 50%, 98%);
-  width: 240px;
+  width: 251px;
   height: 350px;
 }
 .List {
@@ -21,22 +25,28 @@
 
   vertical-align: middle;
 }
-.img :hover {
-}
+
 .card-containr h6 {
   font-weight: 600;
   color: #8f8f8f;
   cursor: pointer;
-  margin-top: 9px;
+  margin-top: 8px;
   margin-left: 15px;
+  font-size: larger;
+}
+h6:hover {
+  color: red;
 }
 .card-containr p {
   color: #303030;
   font-weight: 700;
   cursor: pointer;
-  margin-top: -40px;
+  margin-top: -60px;
   margin-left: 15px;
 }
 .icon-card {
   margin-left: 15px;
+  /* border: 2px solid red; */
+  position: absolute;
+  bottom: 350px;
 }
