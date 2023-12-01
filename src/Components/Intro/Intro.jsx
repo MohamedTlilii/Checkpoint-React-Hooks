@@ -1,16 +1,16 @@
 import "./Style.css";
 import React from "react";
 import Button from "../Button/Button";
-import Card from "../Card/Card"
+import MovieCard from "../MovieCard/MovieCard";
 function Intro() {
   return (
     <div className="intro">
       <div className="intro-containr">
-      <h2>Latest Movies</h2>
-      <Button content="View All"/>
+        <h2>Latest Movies</h2>
+        <Button content="View All" />
       </div>
       <div>
-        <Card/>
+        <MovieCard />
       </div>
     </div>
   );
