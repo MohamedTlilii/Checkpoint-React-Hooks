@@ -3,7 +3,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
-
+import Genre from "../Genre/Genre";
 import React from "react";
 
 function FooterSection() {
@@ -22,23 +22,38 @@ function FooterSection() {
           <FaFacebookF className="icon" color="#8f8f8f" fontSize="18px" />
           <FaTwitter className="icon" color="#8f8f8f" fontSize="18px" />
           <FaLinkedinIn className="icon" color="#8f8f8f" fontSize="18px" />
-          <FaTelegram className="icon" color="#8f8f8f"  fontSize="18px"/>
+          <FaTelegram className="icon" color="#8f8f8f" fontSize="18px" />
         </div>
       </div>
-      <div className="footermovie">
-        <h4>Movies</h4>
-       <div className="genrlist">
-       <p className="genre">Drama</p>
-        <p className="genre">Action</p>
-        <p className="genre">Animation</p>
-        <p className="genre">Comedy</p> <br />
-        <p className="genre">Crime</p>
-        <p className="genre">Fantacy</p>
-        <p className="genre">Horror</p>
-        <p className="genre">Romance</p>
-       </div>
-      </div>
-      
+      <Genre
+        title="Movies"
+        contanet1="Drama"
+        contanet2="Action"
+        contanet3="Animation"
+        contanet4="Comedy"
+        contanet5="Crime"
+        contanet6="Fantacy"
+        contanet7="Horror"
+        contanet8="Romance"
+      />
+      <Genre
+        title="Tv Shows"
+        contanet1="Breaking Bad"
+        contanet2="Grimm"
+        contanet3="Friends"
+        contanet4="Supergirl"
+        contanet5="The Night Manager"
+        contanet6="Sex Education"
+        contanet7="A Discovery of Witches"
+        contanet8="Derry Girls"
+      />
+      <Genre
+        title="My Account"
+        contanet1="My Account"
+        contanet2="Plan"
+        contanet3="Premium"
+        contanet4="Faq"
+      />
     </div>
   );
 }
