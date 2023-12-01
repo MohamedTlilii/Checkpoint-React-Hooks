@@ -1,14 +1,20 @@
 import React from 'react' 
 import "./Style.css";
+import ReactStars from "react-stars";
 
-function Card() {
+
+function Card(props) {
   return (
-    <div>
+    <div className='card-containr'>
         <div>
-            <img src="" alt="" />
+            <img src={props.img} alt="" />
         </div>
-       <h6></h6>
-        <p></p>
+       <h6>{props.tittle}eaeaz</h6>
+        <ReactStars/>
+        <p>eazeza{props.descrption}</p>
+        <link rel="stylesheet" href="" />
+        
+          
     </div>
   )
 }

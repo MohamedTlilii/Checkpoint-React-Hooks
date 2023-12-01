@@ -1,0 +1,6 @@
+.card-containr {
+    border: 1px solid rgb(238, 238, 238);
+    background-color: hsl(210, 50%, 98%);
+    width: 240px;
+    height: 350px;
+}
