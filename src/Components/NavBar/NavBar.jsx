@@ -5,8 +5,8 @@ function NavBar() {
   return (
     <div className="navbar-container">
       <div className="navbar-logo">
-        <span style={{color:"white"}}>You</span>
-        <span style={{color:"red"}}>video.</span>
+        <span style={{ color: "white" }}>You</span>
+        <span style={{ color: "red" }}>video.</span>
       </div>
       <ul>
         <li>Demos</li>
