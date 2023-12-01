@@ -46,8 +46,8 @@ const Data = [
     descrption: "Actions, Thriller, Comedy",
   },
   {
-    image: "../assets/img/hp.jpg",
-    tittle: "Harry Potter",
+    image: "../assets/img/pirates.jpg",
+    tittle: "Pirates",
     descrption: "Actions, Thriller, Comedy",
   },
   {
