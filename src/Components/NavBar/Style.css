@@ -1,6 +1,7 @@
 .navbar-container {
   /* border: 2px rgb(255, 255, 255) solid; */
-  
+  border-bottom: 1px solid #dee2e6!important;
+
   display: flex;
   justify-content: center;
   align-items: center;

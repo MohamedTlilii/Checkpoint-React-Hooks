@@ -1,10 +1,11 @@
 .footerSection {
-  border: 2px solid black;
-  height: 45vh;
+  /* border: 2px solid black; */
+  height: 30vh;
   background-color: hsl(210, 16%, 98%);
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 .footer-containr {
   /* border: 2px solid rgb(185, 10, 10); */
