@@ -1,8 +1,8 @@
 import React from "react";
 import "./Style.css";
-import ReactStars from "react-stars";
+// import ReactStars from "react-stars";
 
-const Card = ({ image, tittle, descrption,  }) => {
+const Card = ({ image, tittle, descrption, rating  }) => {
   return (
         <div className="card-cadre">
     <div className="card-containr">
@@ -10,7 +10,7 @@ const Card = ({ image, tittle, descrption,  }) => {
         <img style={{width:'250px' , height:'275px'}} src={image} alt={tittle} />
       </div>
       <h6 >{tittle}</h6>
-      <ReactStars className="icon-card"  />
+      <span className="icon-card">{rating}</span>
       <p>{descrption}</p>
       {/* <link rel="stylesheet" href="" /> */}
     </div>
