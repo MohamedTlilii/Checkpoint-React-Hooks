@@ -1,5 +1,6 @@
 import React from "react";
 import "./Style.css";
+import ReactStars from "react-stars";
 
 function NavBar() {
   return (
@@ -8,6 +9,7 @@ function NavBar() {
         <span style={{ color: "white" }}>You</span>
         <span style={{ color: "red" }}>video.</span>
       </div>
+      <ReactStars className="stars"/>
       <ul>
         <li>Demos</li>
         <li>Movies</li>
@@ -26,4 +28,3 @@ function NavBar() {
 }
 
 export default NavBar;
-

@@ -50,6 +50,11 @@ li:hover {
   font-size: 14px;
     
 }
+.stars {
+  border: 2px rgb(240, 19, 19) solid;
+  padding: 20px;
+/* text-align: center; */
+}
 /* .dropdown {
   display: inline-block;
   
