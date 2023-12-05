@@ -1,15 +1,18 @@
 import "./App.css";
-import Hero from "./Components/Hero/Hero";
-import Intro from "./Components/Intro/Intro";
 import FooterSection from "./Components/FooterSection/FooterSection";
 import Footer from "./Components/Footer/Footer";
+import React, { useState } from "react";
+import NavBar from "./Components/NavBar";
+import List from "./Components/List";
 function App() {
+  const [search, setSearch] = useState("");
+  // const [rate, setRate] = useState("0");
   return (
     <div>
-      <Hero />
-      <Intro />
-      <FooterSection/>
-      <Footer/>
+      <NavBar setSearch={setSearch}  />
+      <List  search={search}  />
+      <FooterSection />
+      <Footer />
     </div>
   );
 }

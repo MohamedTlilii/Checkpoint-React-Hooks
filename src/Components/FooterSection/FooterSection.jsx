@@ -54,6 +54,7 @@ function FooterSection() {
         contanet3="Premium"
         contanet4="Faq"
       />
+      
     </div>
   );
 }
