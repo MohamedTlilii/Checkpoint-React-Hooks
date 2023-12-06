@@ -2,7 +2,8 @@ import Card from "./Card";
 import Data from "../Data";
 import Button from "./Button";
 
-const List = ({ search }) => {
+const List = ({ search, rate }) => {
+  console.log("search movie list: ", search);
   return (
     <div className="List-containr">
       <div className="List-containr-hero">
@@ -24,9 +25,11 @@ const List = ({ search }) => {
       </div>
       {Data.filter((movie) =>
         movie.tittle.toLowerCase().includes(search.toLowerCase())
-      ).map((movie, i) => (
-        <Card key={i} {...movie} />
-      ))}
+      )
+        .filter((movie) => (rate ? movie.rating === rate : movie))
+        .map((movie, i) => (
+          <Card key={i} {...movie} />
+        ))}
     </div>
   );
 };

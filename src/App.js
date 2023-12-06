@@ -6,11 +6,12 @@ import NavBar from "./Components/NavBar";
 import List from "./Components/List";
 function App() {
   const [search, setSearch] = useState("");
-  // const [rate, setRate] = useState("0");
+  const [rate, setRate] = useState(0);
+  console.log(rate);
   return (
     <div>
-      <NavBar setSearch={setSearch}  />
-      <List  search={search}  />
+      <NavBar setSearch={setSearch} setRate={setRate} rate={rate} />
+      <List search={search} rate={rate} />
       <FooterSection />
       <Footer />
     </div>

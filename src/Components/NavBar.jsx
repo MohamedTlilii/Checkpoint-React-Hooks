@@ -2,8 +2,7 @@
 import "./Style.css";
 import ReactStars from "react-stars";
 
-function NavBar({ setSearch}) {
- 
+function NavBar({ setSearch, setRate, rate }) {
   return (
     <div className="navbar-container">
       <div className="navbar-logo">
@@ -11,10 +10,14 @@ function NavBar({ setSearch}) {
         <span style={{ color: "red" }}>video.</span>
       </div>
       <ReactStars
+        onChange={(newRating) => {
+          setRate(newRating);
+        }}
         count={5}
-        
         size={24}
-        color2={"#ffd700"}
+        color2={"white"}
+        value={rate}
+        half={false}
         className="stars"
       />
       <input
