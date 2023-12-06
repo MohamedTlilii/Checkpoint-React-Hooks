@@ -75,7 +75,7 @@ li:hover {
 }
 .List-containr-hero {
   /* border: 2px solid red; */
-  height: 30vh;
+  height: 40vh;
   width: 108vh;
 }
 .List-containr-btns {
@@ -148,6 +148,26 @@ h6:hover {
 }
 /*button.jsx  */
 .btn-btn {
+  all: unset;
+  /* border: 2px solid black; */
+  display: flex;
+  border-radius: 3px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 6px;
+  height: 20px;
+}
+.restart-btn {
+  /* border: solid white 2px; */
+  margin-right:26px ;
+  
+ 
+
+}
+.btn-add-movie {
+  /* border: solid rgb(152, 39, 39) 2px;  */
   all: unset;
   /* border: 2px solid black; */
   display: flex;

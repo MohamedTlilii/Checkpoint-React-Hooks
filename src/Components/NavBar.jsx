@@ -1,6 +1,7 @@
 // import React, { useState } from "react";
 import "./Style.css";
 import ReactStars from "react-stars";
+import { VscDebugRestart } from "react-icons/vsc";
 
 function NavBar({ setSearch, setRate, rate }) {
   return (
@@ -9,6 +10,7 @@ function NavBar({ setSearch, setRate, rate }) {
         <span style={{ color: "white" }}>You</span>
         <span style={{ color: "red" }}>video.</span>
       </div>
+
       <ReactStars
         onChange={(newRating) => {
           setRate(newRating);
@@ -20,6 +22,14 @@ function NavBar({ setSearch, setRate, rate }) {
         half={false}
         className="stars"
       />
+      <VscDebugRestart className="restart-btn"
+        onClick={() => {
+          setRate(0);
+        }}
+        color="white"
+        size={"20"}
+      />
+
       <input
         type="text"
         id="searchInput"
